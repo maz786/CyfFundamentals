@@ -1,0 +1,117 @@
+header.c-site-header h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+section h2 {
+  text-align: center;
+  text-decoration: underline;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav li {
+  margin: 0 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  color: inherit;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Main content styles */
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+article {
+  margin: 2em 0;
+}
+
+section {
+  margin: 2em 0;
+}
+
+h2 {
+  font-size: 1.5em;
+  margin: 0 0 1em;
+}
+
+figure {
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+figcaption {
+  font-style: italic;
+}
+
+/* Footer styles */
+.c-site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1em;
+  text-align: center;
+}
+
+.c-section-container {
+  text-align: center;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+header.c-site-header {
+  background-color: black;
+}
+
+header.c-site-header h1 {
+  text-align: center;
+  text-decoration: underline;
+  color: white;
+}
+
+nav a {
+  color: white;
+}
+
+.c-site-footer {
+  background-color: black;
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+#carousel img, #carousel p {
+  display: block;
+  margin: auto;
+}
+
+/* Added CSS for spaces between sections */
+body > div:not(:last-child) {
+  margin-bottom: 30px; /* adjust as needed */
+}
